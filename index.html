@@ -67,7 +67,7 @@
 
     <!-- ==================== Start Navbar ==================== -->
 
-    <nav class="navbar change navbar-expand-lg">
+    <nav class="navbar change navbar-expand-lg" >
         <div class="container">
 
             <!-- Logo -->
@@ -83,20 +83,22 @@
             <!-- navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link custom-font" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Головна</a> </li>
+                    <li class="nav-item ">
+                        <a class="nav-link custom-font"  href="" >Головна</a> </li>
+                    
                     <li class="nav-item">
-                        <a class="nav-link custom-font" href="about.html">Про нас</a>
+                        <a class="nav-link custom-font" href="#servise">Послуги</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link custom-font" href="#works">Портфоліо</a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-font" href="#term">Відгуки</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-font" href="services.html">Послуги</a>
+                        <a class="nav-link custom-font" href="#price">Ціни</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link custom-font" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Портфоліо</a> </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-font" href="contact.html">Контакти</a>
+                        <a class="nav-link custom-font" href="#contact">Контакти</a>
                     </li>
                 </ul>
             </div>
@@ -109,8 +111,8 @@
 
     <!-- ==================== Start Slider ==================== -->
 
-    <header class="slider slider-prlx fixed-slider">
-        <div class="swiper-container parallax-slider">
+    <header class="slider slider-prlx fixed-slider" >
+        <div class="swiper-container parallax-slider" >
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="bg-img valign" data-background="img/1s.jpg" data-overlay-dark="6">
@@ -176,7 +178,7 @@
         <!-- ==================== Start about ==================== -->
 
         <section id="about" class="about section-padding">
-            <div class="container">
+            <div class="container" id="servise">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="main-tit">
@@ -386,7 +388,7 @@
 
         <!-- ==================== Start Testimonials ==================== -->
 
-        <section class="testimonials bg-blc">
+        <section class="testimonials bg-blc" id="term">
             <div class="container-fluid no-padding">
                 <div class="row">
                     <div class="col-lg-8 no-padding order2">
@@ -543,7 +545,7 @@
 
         <!-- ==================== Start call-to-action ==================== -->
 
-        <section class="call-action section-padding bg-blc">
+        <section class="call-action section-padding bg-blc" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-lg-9">
@@ -635,6 +637,7 @@
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
+
 
 </body>
 
